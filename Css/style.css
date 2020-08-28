@@ -1,0 +1,362 @@
+
+body {
+  margin: 0 0;
+  overflow-x: hidden;
+}
+.upper {
+  background: #545e6a;
+  width: 100%;
+  overflow: hidden;
+  padding: 13px;
+}
+
+.uppernav {
+  width: 67%;
+  margin: 0 auto;
+  
+}
+.starter {
+  float: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  color: aliceblue;
+}
+.uppermenu {
+  float: right;
+  padding-right: 15px;
+}
+
+.fas.fa-search-plus {
+  color: #dddddd;
+  padding-right: 35px;
+  font-size: 14px;
+}
+
+.fab.fa-linkedin-in {
+  color: aliceblue;
+  padding-right: 20px;
+  font-size: 12px;
+}
+
+.fab.fa-twitter {
+  color: aliceblue;
+  padding-right: 20px;
+  font-size: 12px;
+}
+
+.fab.fa-twitter:hover{
+  color: #bd233f;
+}
+
+.fab.fa-facebook-f {
+  color: aliceblue;
+  padding-right: 40px;
+  font-size: 12px;
+}
+.login {
+  background-color: #be2140;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: Light 300;
+  color: aliceblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 30px;
+}
+.login:hover{
+  background-color:red;
+}
+
+.container {
+  width: 70.5%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.notarylogo {
+  width: 15%;
+  float: left;
+  padding-top: 4px;
+}
+.notarylogo img {
+  width: 90%;
+  padding-left: 35px;
+}
+
+.menu {
+  width: 81%;
+  float: right;
+}
+}
+.menu ul {
+  float: right;
+  padding-left: 5px;
+  margin-right:0;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu ul li a {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #545e6a;
+  text-decoration: none;
+  padding: 0 25px;
+  transition: 0.2s;
+}
+.menu ul li:first-child a{
+  color: #bd233f;
+} ;
+
+}
+.menu ul li:last-child a {
+  padding: 0 50px;
+}
+
+
+.menu ul li a:hover {
+  color: #bd233f;
+}
+.menu ul li:first-child a:hover{
+  color: #545e6a;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+  background-image: url(../images/backimage.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+}
+.b_content{
+  width: 50%;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding-left: 25px;
+}
+.b_content h1{
+  font-family: sans-serif ;
+ font-size: 50px;
+font-weight: 700;
+color: aliceblue;
+line-height: 60px;
+letter-spacing: 1px;
+margin-top: 0px;
+margin-bottom: 23px;
+}
+.b_content p{
+  font-family: sans-serif ;
+ font-size: 17px;
+font-weight: 400;
+color: aliceblue;
+line-height: 20px;
+letter-spacing: .5px;
+margin-top: 0;
+margin-bottom: 10px;
+}
+.b_content button{
+  text-transform: uppercase;
+  width: 240px;
+  height: 50px;
+  background-color: #bd233f;
+  font-family: sans-serif ;
+  font-size: 14px;
+color: aliceblue;
+border: none;
+cursor: pointer;
+margin-top: 30px;
+}
+.b_content button:focus{
+  outline: none;
+  
+}
+.b_content button:hover{
+  background-color: red;
+}
+/*banner end*/
+
+/*how it works starts*/
+.howitworks{
+}
+.title{
+  width: 70%;
+  margin: 0 auto;
+  font-family: sans-serif ;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.title h1{
+font-size: 30px;
+ color: black;
+ text-transform: uppercase;
+ margin: 0 0 20px;
+ text-align: center; 
+}
+
+.title p{
+  font-size: 14px;
+  color: #545e6a;
+  word-spacing: 1px;
+  line-height: 22px;
+  margin: 0px;
+  text-align: center; 
+  }
+.circleicon{
+  overflow: hidden;
+  margin-top: 75px;
+  margin-bottom: 150px;
+
+}
+.icon1{
+  float: left;
+width: 30%;
+text-align: center;
+margin: 0 18.5px;
+padding: 0 ;
+
+}
+.icon1 img{
+  width: 40%;
+}
+.icon1 p{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+ color: black;
+ word-spacing: .6px;
+ text-transform: capitalize;
+ line-height: 19px;
+}
+.icon2{
+  float: left;
+width: 30%;
+text-align: center;
+margin: 0 18.5px;
+padding: 0 ;
+
+}
+.icon2 img{
+  width: 40%;
+}
+.icon2 p{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+ color: black;
+ word-spacing: .6px;
+ text-transform: capitalize;
+ line-height: 19px;
+}
+.icon3{
+  float: left;
+width: 30%;
+text-align: center;
+margin: 0 18.5px;
+padding: 0 ;
+
+}
+.icon3 img{
+  width: 40%;
+}
+.icon3 p{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+ color: black;
+ word-spacing: .6px;
+ text-transform: capitalize;
+ line-height: 19px;
+}
+/*how it works ends*/
+
+/*learn how to starts */
+
+.learn{
+  padding-top: 0;
+  background: #f4f4f4;
+  padding-bottom: 0;
+}
+.l_content{
+  width: 50%;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding-left: 25px;
+}
+.l_content h1{
+  font-family: sans-serif ;
+ font-size: 30px;
+font-weight: 700;
+color: black;
+line-height: 35px;
+letter-spacing: .5px;
+text-transform: capitalize;
+margin-top: 0px;
+margin-bottom: 23px;
+}
+.l_content p{
+  font-family: sans-serif ;
+ font-size: 15px;
+font-weight: 400;
+color: black;
+line-height: 20px;
+letter-spacing: .5px;
+margin-top: 0;
+margin-bottom: 10px;
+}
+.l_content button{
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  background-color: #bd233f;
+  font-family: sans-serif ;
+  font-size: 12px;
+color: aliceblue;
+border: none;
+cursor: pointer;
+margin-top: 50px;
+}
+.l_content button:focus{
+  outline: none;
+}
+.l_content button:hover { 
+background-color: red;
+}
+ .con{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+.video {
+  text-align: right;
+  box-shadow: 0 0px 10px 0 rgba(0,0,0,0.5);
+
+}
+ .video iframe{
+	width: 360px;
+  height: 200px;
+  
+ 
+  
+}
+/* learn how to ends */
+
+/* feature starts*/
+
+/*feature ends*/
+
+/*footer starts*/
+footer{background-color: #5A6470;padding: 10px 0;}
+footer p{
+font-family: sans-serif;
+font-size: 15px;
+letter-spacing: 1px;
+text-align: center;
+color: #ffffff;
+}
+
+/*footer ends*/
+
+
